@@ -9,36 +9,43 @@
 <body>
     <main>
         <section>
-            <div class="img"><img src="img/imagen avion.ini.png" alt="logo avion"></div>
+          <div class="img">
+            <img src="img/imagen avion.ini.png" alt="logo avion">
+          </div>
         </section>
+      
         <section>
-            <div class="inicio-sesion">
-                <p>Iniciar Sesion</p><br>
-            </div>
+          <div class="inicio-sesion">
+            <p>Iniciar Sesión</p><br>
+          </div>
         </section>
-        <section class="formulario">
+      
+        <section>
+          <div class="formulario">
             <form>
-                <label for="email"></label>
-                <input type="email" placeholder="E-mail"><br><br>
+              <label for="email"></label>
+              <input type="email" name="email" id="email" placeholder="E-mail" required><br><br>
+      
+              <label for="contraseña"></label>
+              <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required><br><br>
+      
+              <div class="recordar-mis">
+                <input type="checkbox" id="recordar" name="recordar">
+                <label for="recordar">Recordar mis datos</label>
+              </div><br>
+      
+              <button type="submit" class="ingresar">INGRESAR</button>
             </form>
-            <form >
-                <label for="contraseña"></label>
-                <input type="password" name="contraseña" id="contraseña" placeholder="contraseña"><br><br>
-            </form>
+          </div>
         </section>
-        <div class="recordar-mis">
-            <input type="checkbox" id="recordar" name="recordar">
-            <label for="recordar">Recordar mis datos</label>
-
-        </div>
-        <button type="submit" class="ingresar">INGRESAR</button>
-
-    </main>
-
-
-
-
-
-    
+      
+        <section>
+          <div class="opciones">
+            <a href="">Crear cuenta</a><br><br>
+            <a href="">¿Has olvidado tu contraseña?</a>
+          </div>
+        </section>
+      </main>
+         
 </body>
 </html>
