@@ -13,6 +13,7 @@ img{
     font-size: 30px ;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0%;
+    ;
     
 }
 .formulario{
@@ -66,5 +67,34 @@ img{
 .logo{
     text-align: center;
     margin-top: 5%;
+    
 }
+.fondo-color{
+    background: linear-gradient(to right, #b417a7, #148bda);
+    height: 100vh;
+
+}
+.ACME-AIR{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+.marca{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cabecera{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
