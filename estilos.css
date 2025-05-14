@@ -1,6 +1,8 @@
 img {
     max-width: 60%;
     height: auto;
+    padding: 0%;
+    margin-top: 0%;
 }
 
 
@@ -31,11 +33,20 @@ img {
     margin-top: 0%
 }
 
-.opciones {
+.acciones {
     text-align: center;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    margin-left: 40px;
 
+}
+
+.acciones a:hover {
+    text-decoration: underline;
 }
 
 button {
@@ -55,6 +66,8 @@ button:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+
 
 
 
@@ -121,7 +134,7 @@ body {
 .formulario-registro {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     gap: 3vh;
     box-sizing: border-box;
     align-items: center;
@@ -134,6 +147,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+    border: 1px solid black;
 
 }
 
@@ -200,3 +214,35 @@ hr {
     justify-content: start;
     align-items: center;
 }
+
+.perfil {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    margin: 0;
+    gap: 10px;
+
+
+}
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.solo_ida {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.solo_ida input[type="checkbox"] {
+    width: 14px; 
+    height: 14px;
+    margin-right: 8px; 
+  }
+  

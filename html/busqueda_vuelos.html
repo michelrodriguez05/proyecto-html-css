@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busqueda de vuelos</title>
-    <link rel="stylesheet" href="/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busqueda de vuelos</title>
+  <link rel="stylesheet" href="/estilos.css">
 </head>
+
 <body class="fondo-color">
-    <main>
-        <section class="cabecera">
-          <div class="logo">
-            <img src="/img/avion-despegando (1).png" alt="Logo ACME AIR"></div>
-            <div class="marca">
-            <span class="ACME-AIR">ACME AIR</span>
-            <span class="subtitulo-acme">Flying your dreams</span>
-          </div>
-              
-            
-        </section>
-      
-        <section class="usuario">
-          <div class="perfil">
-            <img src="img/usuario.png" alt="Foto de perfil">
-            <span>John Doe</span>
-          </div>
+  <main>
+    <section class="cabecera">
+      <div class="logo">
+        <img src="/img/avion-despegando (1).png" alt="Logo ACME AIR">
+      </div>
+      <div class="marca">
+        <span class="ACME-AIR">ACME AIR</span>
+        <span class="subtitulo-acme">Flying your dreams</span>
+      </div>
+
+
+    </section>
+
+    <section class="cuerpo">
+      <div class="perfil">
+        <img src="/img/usuario.png" alt="Foto de perfil">
+        <div class="nombre-usuario">
+          <span>John Doe</span><br>
           <a href="index.html" class="cerrar-sesion">Cerrar Sesión</a>
-        </section>
-      
-        <section class="busqueda">
-          <h2>Búsqueda de Vuelos</h2>
-      
-          <form>
-            <label>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <section class="busqueda">
+        <h2>Búsqueda de Vuelos</h2>
+
+        <form class="formulario-registro">
+          <label>
+            <div class="solo_ida">
               <input type="checkbox" name="solo_ida">
               Solo ida
-            </label>
-      
-            <input type="text" name="origen" placeholder="Origen" required>
-            <input type="text" name="destino" placeholder="Destino" required>
-            <input type="date" name="fecha_salida" placeholder="Fecha de salida" required>
-            <input type="date" name="fecha_regreso" placeholder="Fecha de regreso">
-      
-            <button type="submit">BUSCAR</button>
-          </form>
-        </section>
-      </main>
-      
+            </div>
+          </label>
+
+          <input type="text" name="origen" placeholder="Origen" required>
+          <input type="text" name="destino" placeholder="Destino" required>
+          <input type="date" name="fecha_salida" placeholder="Fecha de salida" required>
+          <input type="date" name="fecha_regreso" placeholder="Fecha de regreso">
+
+          <button type="submit">BUSCAR</button>
+        </form>
+
+      </section>
+    </section>
+  </main>
+
 </body>
+
 </html>
