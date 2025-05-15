@@ -347,5 +347,451 @@ hr {
 #contraseña{width: 70%; height: 7vh;}
 #cuerpo-fondo{height: 100vh;}
 
+.btn-volver{
+    background-color: #0ab4e7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    display: inline-block
+}
+.btn-volver:hover {
+    background-color: #0a8de7;
+    transform: scale(1.03);
+}
+
+.opciones {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.opciones:hover{
+    transform: scale(1.03);
+
+}
+
+.vuelo-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-avion {
+    width: 40px;
+    height: 40px;
+}
+
+.detalles-vuelo {
+    flex-grow: 1;
+
+}
+
+.numero-vuelo {
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.ruta {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    color: #555;
+}
+
+.horario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hora {
+    font-weight: bold;
+    color: #222;
+}
+
+.seccion-contacto {
+    font-family: 'Arial', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-seccion {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.campo-formulario {
+    position: relative;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.campo-formulario input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.campo-formulario label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.campo-formulario input:focus + label,
+.campo-formulario input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: #4a90e2;
+}
+
+.btn-guardar {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-guardar:hover {
+    background-color: #3a7bc8;
+}
+
+.seccion-contacto {
+    font-family: 'Arial', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10xp;
+    background-color: #eceaea;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-seccion {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.campo-formulario {
+    position: relative;
+}
+
+.campo-formulario input {
+    width: 100%;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.campo-formulario input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
 
 
+
+
+.btn-guardar {
+    background-color: #4a90e2;
+    color: rgb(250, 246, 246);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-guardar:hover {
+    background-color: #3a7bc8;
+}
+.contenedor-vuelo {
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.info-vuelo {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.ruta-horario, .detalle-vuelo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.ciudad-salida, .numero-vuelo {
+    font-weight: bold;
+    color: #333;
+}
+
+.hora-salida, .hora-llegada {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.duracion {
+    color: #4a90e2;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.ciudad-llegada {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #333;
+}
+
+.minutos {
+    color: #999;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+
+.titulo-seccion {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+
+.campo-formulario input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.campo-formulario label {
+    
+    top: 12px;
+    left: 15px;
+    color: #999;
+    background-color: #fff;
+    
+}
+
+.campo-formulario input:focus + label,
+.campo-formulario input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 0.8rem;
+    color: #4a90e2;
+}
+
+.btn-guardar {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-guardar:hover {
+    background-color: #3a7bc8;
+}
+
+.mis-vuelos {
+    font-family: 'Arial', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.lista-vuelos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-vuelo {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 15px;
+}
+
+
+.info-horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+    padding-right: 15px;
+    border-right: 1px solid #eee;
+}
+
+.hora {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.duracion {
+    color: #7f8c8d;
+    font-size: 0.8rem;
+    margin: 3px 0;
+}
+
+.fecha {
+    color: #95a5a6;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.info-vuelo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.numero-vuelo {
+    font-weight: bold;
+    color: #3498db;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.estado {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 12px;
+    align-self: flex-start;
+    margin-bottom: 8px;
+}
+
+.vuelo-a-tiempo {
+    background-color: #e8f8f5;
+    color: #27ae60;
+}
+
+.vuelo-aterrizo {
+    background-color: #eaf2f8;
+    color: #2980b9;
+}
+
+.ruta {
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.btn-volver {
+    display: block;
+    text-align: center;
+    width: 90%;
+    padding: 12px;
+    background-color: #2e75bd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #1a252f;
+}
+
+.ocultar{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    display: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+
+}

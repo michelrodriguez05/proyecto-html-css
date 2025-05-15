@@ -35,18 +35,43 @@
             <h2>Check In</h2>
             <section class="opciones">
                 <img src="/img/logo avion.png" alt="logo avion" class="logo-avion">
-                <p>Vuelo: VAA025 | Bogotá - Barranquilla | 05:30 - 06:30</p>
+                <section class="contenedor-vuelo">
+                    <!-- Sección de información del vuelo -->
+                    <div class="info-vuelo">
+                        <div class="ruta-horario">
+                            <span class="ciudad-salida">Vuelo: Bogotá -</span>
+                            <span class="hora-salida">05:30</span>
+                            <span class="duracion">11h 30</span>
+                        </div>
+                        <div class="detalle-vuelo">
+                            <span class="numero-vuelo">VAA025</span>
+                            <span class="ciudad-llegada">Barranquilla</span>
+                            <span class="hora-llegada">08:30</span>
+                            <span class="minutos">min</span>
+                        </div>
+                    </div>
 
+                    <!-- Sección de contacto de emergencia -->
+                    <div class="seccion-contacto">
+                        <h2 class="titulo-seccion">Contacto En Caso De Emergencia</h2>
 
-                <form action="menu.html" method="POST" class="formulario-registro">
+                        <form action="menu.html" method="POST" class="formulario-registro">
+                            <div class="campo-formulario">
+                                <input type="text" id="nombre-completo" placeholder=" " required>
+                                <label for="nombre-completo">Nombre completo</label>
+                            </div>
 
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="tel" placeholder="No. Teléfono Celular">
-                    <button type="submit">Guardar</button>
-                </form>
+                            <div class="campo-formulario">
+                                <input type="tel" id="telefono" placeholder=" " required>
+                                <label for="telefono">No. Teléfono Celular</label>
+                            </div>
 
+                            <a href="/html/menu.html" class="btn-volver">GUARDAR</a>
+                        </form>
+                    </div>
+
+                </section>
             </section>
-        </section>
     </main>
 
 </body>
