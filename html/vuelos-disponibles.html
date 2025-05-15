@@ -1,69 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuelos Disponibles</title>
     <link rel="stylesheet" href="/estilos.css">
 </head>
-<body>
-    <section class="cuerpo">
-        <div class="perfil">
-            <img src="/img/usuario.png" alt="Foto de perfil">
-            <div class="nombre-usuario">
-                <span>John Doe</span><br>
-                <a href="/index.html" class="cerrar-sesion">Cerrar Sesión</a>
+
+<body class="fondo-color">
+    <div class="ocultar">
+        Este dispositivo no es apto para la web
+    </div>
+    <main>
+        <section class="cabecera">
+            <div class="logo">
+                <img src="/img/avion-despegando (1).png" alt="Logo ACME AIR">
             </div>
-        </div>
-        <hr>
-    
-        <div class="vuelos-container">
-            <h2 class="titulo-vuelos">Vuelos Disponibles</h2>
-            <p class="ruta-info">Bogotá - Barranquilla | Septiembre 29</p>
-            
-            <div class="lista-vuelos">
-                <!-- Vuelo 1 -->
-                <div class="vuelo-item">
-                    <div class="horario-vuelo">
-                        <span>06:30</span>
-                        <span>06:30</span>
-                    </div>
-                    <div class="detalles-vuelo">
-                        <span>11:30 min</span>
-                        <span>WA4025</span>
-                    </div>
-                    <div class="precio-vuelo">COP 150.600</div>
-                </div>
-                
-                <!-- Vuelo 2 -->
-                <div class="vuelo-item">
-                    <div class="horario-vuelo">
-                        <span>10:30</span>
-                        <span>12:05</span>
-                    </div>
-                    <div class="detalles-vuelo">
-                        <span>11:30 min</span>
-                        <span>WA4112</span>
-                    </div>
-                    <div class="precio-vuelo">COP 260.050</div>
-                </div>
-                
-                <!-- Vuelo 3 -->
-                <div class="vuelo-item">
-                    <div class="horario-vuelo">
-                        <span>14:15</span>
-                        <span>18:45</span>
-                    </div>
-                    <div class="detalles-vuelo">
-                        <span>11:30 min</span>
-                        <span>WA3836</span>
-                    </div>
-                    <div class="precio-vuelo">COP 150.600</div>
+            <div class="marca">
+                <span class="ACME-AIR">ACME AIR</span>
+                <span class="subtitulo-acme">Flying your dreams</span>
+            </div>
+        </section>
+        <section class="cuerpo" id="cuerpo-fondo">
+            <div class="perfil">
+                <img src="/img/usuario.png" alt="Foto de perfil">
+                <div class="nombre-usuario">
+                    <span>John Doe</span><br>
+                    <a href="/index.html" class="cerrar-sesion">Cerrar Sesión</a>
                 </div>
             </div>
-            
-            <button class="btn-volver">VOLVER</button>
-        </div>
-    </section>
+            <hr>
+
+            <div class="vuelos-container">
+                <h2 class="titulo-vuelos">Vuelos Disponibles</h2>
+                <p class="ruta-info">Bogotá - Barranquilla | Septiembre 29</p>
+
+                <div class="lista-vuelos">
+                    <!-- Vuelo 1 -->
+                    <div class="vuelo-item">
+                        <div class="horario-vuelo">
+                            <span>06:30</span>
+                            <span>06:30</span>
+                        </div>
+                        <div class="detalles-vuelo">
+                            <span>11:30 min</span>
+                            <span>WA4025</span>
+                        </div>
+                        <div class="precio-vuelo">COP 150.600</div>
+                    </div>
+
+                    <!-- Vuelo 2 -->
+                    <div class="vuelo-item">
+                        <div class="horario-vuelo">
+                            <span>10:30</span>
+                            <span>12:05</span>
+                        </div>
+                        <div class="detalles-vuelo">
+                            <span>11:30 min</span>
+                            <span>WA4112</span>
+                        </div>
+                        <div class="precio-vuelo">COP 260.050</div>
+                    </div>
+
+                    <!-- Vuelo 3 -->
+                    <div class="vuelo-item">
+                        <div class="horario-vuelo">
+                            <span>14:15</span>
+                            <span>18:45</span>
+                        </div>
+                        <div class="detalles-vuelo">
+                            <span>11:30 min</span>
+                            <span>WA3836</span>
+                        </div>
+                        <div class="precio-vuelo">COP 150.600</div>
+                    </div>
+                    <button class="btn-volver">VOLVER</button>
+                </div>
+
+            </div>
+        </section>
 </body>
+
 </html>
