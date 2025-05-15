@@ -52,13 +52,10 @@ img {
     flex-direction: column;
     justify-content: center;
     gap: 2px;
-    margin-left: 40px;
+    margin-left: 4px;
 
 }
 
-.acciones a:hover {
-    text-decoration: underline;
-}
 
 button {
     background-color: #0ab4e7;
@@ -792,6 +789,7 @@ hr {
     display: center;
     justify-content: center;
     margin-top: 200px;
+    
     
 
 }
